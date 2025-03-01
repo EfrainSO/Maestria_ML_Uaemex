@@ -18,7 +18,7 @@ de la investigacion teorica y practica, los estudiantes conecten la vase matemat
 - Incluir graficos y visualizaciones que permitan apreciar como el concepto matematico se traduce en una herramienta de analisis de datos
 
 
-
+Temas a cubrir
 
 - Normas
 - Productos internos
