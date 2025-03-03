@@ -26,5 +26,7 @@ Temas a cubrir
 - Angulos y ortogonalidad
 - Bases ortonormales
 - Complemento ortogonal
+- Producto interno en funciones
+- Proyeccion ortogonal
 - Rotaciones
 
