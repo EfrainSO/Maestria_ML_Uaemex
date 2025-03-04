@@ -1,16 +1,16 @@
 # Rotaciones
 ## Explicacion Matematica
 
-Las rotaciones son transformaciones geométricas que mueven puntos en un espacio bidimensional o tridimensional alrededor de un punto central fijo, llamado centro de rotación, sin alterar la forma ni el tamaño del objeto que se está rotando. La cantidad de rotación se define por el ángulo de rotación, que generalmente se mide en grados o radianes.
+Las rotaciones son transformaciones geométricas que mueven  uno o varios puntos en un espacio bidimensional o tridimensional alrededor de un punto central fijo, llamado centro de rotación, sin alterar la forma ni el tamaño del objeto que se está rotando. La cantidad de rotación se define por el ángulo de rotación, que generalmente se mide en grados y en ocasiones en radianes.
 
-Matemáticamente, las rotaciones se describen utilizando matrices de rotación y se basan en conceptos de trigonometría.
+Las rotaciones se pueden describir utilizando matrices de rotación.
 
-Rotaciones en 2D
-En un plano cartesiano bidimensional, una rotación se define por un ángulo $\theta$$\theta$ y un centro de rotación, que comúnmente se ubica en el origen (0, 0).
+### Rotaciones en 2D
+En un plano cartesiano bidimensional, una rotación se define por un ángulo $\theta$$\theta$ y un centro de rotación.
 
 Matriz de Rotación en 2D:
 
-La transformación de un punto $(x, y)$$(x, y)$ a un punto rotado $(x', y')$$(x', y')$ se realiza mediante la multiplicación por la siguiente matriz de rotación:
+La transformación de un punto $(x, y)$ $(x, y)$ a un punto rotado $(x', y')$ $(x', y')$ se realiza mediante la multiplicación por la siguiente matriz de rotación:
 
 $$ R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix} $$$$ R(\theta) = \begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix} $$
 
@@ -31,8 +31,8 @@ $$ x' = x \cos(\theta) - y \sin(\theta) \\ y' = x \sin(\theta) + y \cos(\theta) 
 
 Estas ecuaciones describen cómo las coordenadas del punto original $(x, y)$$(x, y)$ se transforman en las coordenadas del punto rotado $(x', y')$$(x', y')$ después de una rotación de ángulo $\theta$$\theta$ alrededor del origen.
 
-Rotaciones en 3D
-Las rotaciones en el espacio tridimensional son más complejas, ya que involucran rotaciones alrededor de tres ejes: x, y, z. Cada rotación se describe mediante una matriz de rotación de 3x3.
+### Rotaciones en 3D
+Las rotaciones en el espacio tridimensional involucran rotaciones alrededor de tres ejes: x, y, z. Cada rotación se describe mediante una matriz de rotación de 3x3.
 
 Matrices de Rotación en 3D:
 
